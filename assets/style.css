@@ -3,30 +3,32 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background: #f6f6f6;
+  background: #fafafa;
+  color: #222;
 }
 header {
-  background: #6a0dad;
+  background: #6c2bd9;
   color: white;
-  padding: 30px;
+  padding: 2rem;
   text-align: center;
 }
-.badges, .tokenomics, .trust-section {
-  padding: 20px;
+.badges {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
   text-align: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.tokenomics {
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
 }
-.buy-button {
-  background-color: #1e90ff;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
+.trust {
+  padding: 2rem;
+  text-align: center;
+}
+a {
+  color: #4f46e5;
   font-weight: bold;
-}
-.buy-button:hover {
-  background-color: #0d6efd;
 }
