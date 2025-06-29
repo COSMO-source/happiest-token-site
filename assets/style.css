@@ -1,24 +1,39 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background: #f9fbff;
+    font-family: sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    color: white;
     padding: 20px;
-    line-height: 1.6;
+    text-align: center;
 }
-h1 {
-    color: #007bff;
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
-section {
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
 }
-button {
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
     background-color: orange;
     color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
 }
