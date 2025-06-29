@@ -1,7 +1,32 @@
 
-body { font-family: sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-header { background: #ffd700; padding: 20px; text-align: center; }
-.features { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
-.card { background: white; margin: 10px; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 300px; text-align: center; }
-img { max-width: 100px; margin-bottom: 10px; }
-a { color: blue; text-decoration: none; font-weight: bold; }
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+}
+header {
+  background: #6a0dad;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+.badges, .tokenomics, .trust-section {
+  padding: 20px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.buy-button {
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.buy-button:hover {
+  background-color: #0d6efd;
+}
