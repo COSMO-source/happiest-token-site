@@ -1,2 +1,3 @@
-# HAPPIEST Token
-This repo contains all web assets for the HAPPIEST token launch site.
+# HAPPIEST Token Site
+
+Micin token project site with fake audit, fake LP lock, and real hype.
