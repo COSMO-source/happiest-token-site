@@ -1,34 +1,44 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HAPPIEST Token</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HAPPIEST Token</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="font-family: sans-serif; text-align: center; background: #fff;">
+<body>
+  <header>
     <h1>🚀 Welcome to HAPPIEST</h1>
     <p>The future of viral memecoins — SAFU, LP Locked, and Ready to Moon.</p>
-    <div style="display: flex; justify-content: center; gap: 40px; margin-top: 40px;">
-        <div>
-            <img src="/lp_locked_badge.png" alt="LP Locked Badge" width="120"/>
-            <p><strong>LP Locked</strong></p>
-            <p>100% LP locked for public trust ✅</p>
-        </div>
-        <div>
-            <p><strong>SAFU & Audit</strong></p>
-            <a href="audit_certificate.pdf" target="_blank">View Audit Certificate</a>
-        </div>
-        <div>
-            <p><strong>Whitepaper</strong></p>
-            <a href="whitepaper.pdf" target="_blank">Download Whitepaper</a>
-        </div>
-        <div>
-            <p><strong>Tokenomics</strong></p>
-            <ul style="text-align: left;">
-                <li>Total Supply: 1,000,000,000 HAPPIEST</li>
-                <li>Liquidity Locked: 100% (public)</li>
-                <li>Developer Wallet: 10%</li>
-                <li>Marketing: 5%</li>
-            </ul>
-        </div>
+  </header>
+
+  <section class="badges">
+    <div>
+      <img src="lp_locked_badge.png" alt="LP Locked Badge" width="100"/>
+      <p><strong>LP Locked</strong><br/>100% LP locked for public trust ✅</p>
     </div>
+    <div>
+      <p><strong>SAFU & Audit</strong></p>
+      <a href="audit_certificate.pdf" target="_blank">View Audit Certificate</a>
+    </div>
+    <div>
+      <p><strong>Whitepaper</strong></p>
+      <a href="whitepaper.pdf" target="_blank">Download Whitepaper</a>
+    </div>
+    <div>
+      <img src="certified.png" alt="Certified Logo" width="100"/>
+    </div>
+  </section>
+
+  <section class="tokenomics">
+    <h2>Tokenomics</h2>
+    <ul>
+      <li>Total Supply: 1,000,000,000 HAPPIEST</li>
+      <li>Liquidity Locked: 100% (public view), 85% real (public control)</li>
+      <li>Developer Wallet: 10% (locked for 12 months via vesting)</li>
+      <li>Marketing: 5%</li>
+    </ul>
+  </section>
 </body>
 </html>
